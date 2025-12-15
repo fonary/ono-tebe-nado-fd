@@ -1,0 +1,47 @@
+.text-underline-normal {
+  text-underline-position: under;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 93px 0 89px;
+  font-size: 18px;
+  line-height: 135%;
+}
+
+.header__links-list {
+  list-style: none;
+  display: flex;
+  gap: 33px;
+}
+
+.header__link {
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+.header__links-list-item a.header-link_active {
+  text-decoration: none;
+}
+
+.header__links-list-item_circle {
+  list-style: circle;
+}
+.header__logo {
+  display: block;
+  width: 136px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  max-width: 240px;
+  font-style: normal;
+}
+
+.header__address {
+  justify-self: end;
+  padding-bottom: 6px;
+}
