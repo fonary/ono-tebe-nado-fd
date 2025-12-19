@@ -200,7 +200,7 @@
   grid-template-columns: 334px 1fr;
   grid-template-rows: min-content;
   row-gap: 10px;
-  column-gap: 25px; 
+  column-gap: 25px;
   padding: 153px 24px 180px;
 }
 
@@ -250,7 +250,7 @@
 }
 
 .footer__menu-list {
-  text-align: center; 
+  text-align: center;
   list-style: none;
 }
 
